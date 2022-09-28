@@ -23,23 +23,36 @@ h2 {
 }
 
 h3 {
-
+    color: #FCFCFC;
 }
 
 h4 {
     font-weight: 400;
+    color: #FCFCFC;
 }
 
 h5 {
     font-family: 'Poppins', 'sans-seif';
     font-size: 16pt;
     margin: 0;
+    color: #333333;
+}
+
+h6 {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 12pt;
+    color: #333333;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
 }
 
 a {
     font-family: 'Playfair-Display', 'serif';
     font-size: 16pt;
-    font-weight: 500;
+    font-weight: 600;
 
     padding: 5px 20px;
     text-decoration: none;
@@ -208,4 +221,53 @@ a {
 #qcubed:hover {
     background-color: #DFD6F3;
     color: #333333;
+}
+
+#contact-form {
+    width: 600px;
+    background-color: #60C0b4;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 20px;
+
+    margin: 10px auto;
+    margin-bottom: 50px;
+
+    color: #FCFCFC;
+    font-family: 'Poppins', 'Sans-Serif';
+    font-size: 12pt;
+}
+
+input, button {
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #22534d;
+    
+    font-family: 'Poppins', 'Sans-Serif';
+    font-size: 12pt;
+
+    border-radius: 5px;
+}
+
+.social-media-container * {
+    background-color: #60C0b4;
+    font-family: 'Poppins', 'Sans-Serif';
+    font-size: 16pt;
+    color: #FCFCFC;
+    border-radius: 10px;
+
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.social-media-container {
+    margin: 0px auto;
+    width: 800px;
+
+    text-align: center;
+}
+
+.social-media:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
